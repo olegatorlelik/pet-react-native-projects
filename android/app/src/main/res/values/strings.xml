@@ -1,0 +1,14 @@
+<resources>
+  <string name="app_name">Pill reminder</string>
+  <string moduleConfig="true" name="CodePushDeploymentKey" />
+  <string name="CodePushPublicKey">-----BEGIN PUBLIC KEY-----
+    MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnouJT2vSVpHnfNex1Iu1
+    /C1f6/1Q+rlQjZQy8CoVrUABJ8fJNAC8WoMqZqI7uwIEfpXzWpyOj5CtDUvqQ6i8
+    9Oxr1aAEOcDZ08PgXwiNHY0eOXHli1J969m7uqx4LBT13W4ZtJU6VIUal0b6Nw1l
+    +kAFHjFLn4J0yU722Dho/H+sYmq0aSa2cgcAE2DXcIUyfNQ/rTKTUWR9vuIYUS4+
+    t45AHqKM1Nz0x+PgEyvclOqNJWk4mvNw5ZVvQX83CrVKLXpqEMfrciLafgMRm2wZ
+    dI9Q/NGYbW2B0xp+TwOLHDV9eMryoNmMAY0EoIa/pLelpWOT9ijjJyXG2y3jQRlH
+    +wIDAQAB
+    -----END PUBLIC KEY-----
+  </string>
+</resources>
