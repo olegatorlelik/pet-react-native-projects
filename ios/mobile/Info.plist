@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>Wallpapers</string>
+	<string>Animations</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -49,8 +49,6 @@
 	<string>907566633957363</string>
 	<key>FacebookClientToken</key>
 	<string>5c1ae6423b9758513539e7e2fc19e9c0</string>
-	<key>FacebookDisplayName</key>
-	<string>Wallpapers</string>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 	<key>LSApplicationQueriesSchemes</key>
@@ -81,8 +79,6 @@
 			</dict>
 		</dict>
 	</dict>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>This app requires access to the photo library to save wallpapers</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Arimo-Bold.ttf</string>

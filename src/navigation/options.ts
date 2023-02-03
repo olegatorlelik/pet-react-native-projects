@@ -15,8 +15,8 @@ const options = (): Options => ({
   },
   layout: {
     orientation: ['portrait'],
-    backgroundColor: colors.dark,
-    componentBackgroundColor: colors.dark,
+    backgroundColor: colors.white,
+    componentBackgroundColor: colors.white,
   },
   bottomTabs: {
     visible: false,
