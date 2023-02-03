@@ -1,5 +1,5 @@
 import { Manager } from '@lomray/react-mobx-manager';
-import { action, makeObservable, observable } from 'mobx';
+import { action, makeObservable } from 'mobx';
 
 /**
  * Current user store
@@ -16,11 +16,6 @@ class UserStore {
   public error: string | null = null;
 
   /**
-   * Saved wallpapers
-   */
-  public savedWallpapers: number[] = [];
-
-  /**
    * User has premium access
    */
   public isPremium = false;
@@ -31,21 +26,12 @@ class UserStore {
   public isTrial = false;
 
   /**
-   * Sum wallpapers download
-   */
-  public downloadCount = 0;
-
-  /**
    * @constructor
    */
   constructor() {
     makeObservable(this, {
-      downloadCount: observable,
-      savedWallpapers: observable,
       setIsPremium: action.bound,
       setIsTrial: action.bound,
-      increaseDownloadCount: action.bound,
-      setSavedWallpaper: action.bound,
     });
   }
 
@@ -61,20 +47,6 @@ class UserStore {
    */
   public setIsTrial(isTrial: boolean): void {
     this.isTrial = isTrial;
-  }
-
-  /**
-   * Increase total wallpapers download
-   */
-  public increaseDownloadCount(): void {
-    this.downloadCount += 1;
-  }
-
-  /**
-   * Set saved wallpaper
-   */
-  public setSavedWallpaper(id: number): void {
-    this.savedWallpapers = [...this.savedWallpapers, id];
   }
 }
 
